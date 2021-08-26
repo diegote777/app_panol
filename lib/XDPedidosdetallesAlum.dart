@@ -21,7 +21,6 @@ class XDPedidosdetallesAlum extends StatelessWidget {
                   BoxShadow(
                     color: const Color(0x0d000000),
                     offset: Offset(0, 4),
-                    blurRadius: 4,
                   ),
                 ],
               ),
@@ -121,7 +120,6 @@ class XDPedidosdetallesAlum extends StatelessWidget {
                         BoxShadow(
                           color: const Color(0x26000000),
                           offset: Offset(0, 2),
-                          blurRadius: 4,
                         ),
                       ],
                     ),

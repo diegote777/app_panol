@@ -7,6 +7,7 @@ import 'XDHerramienta.dart';
 import 'XDMedidasVarias.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'XDLateralALUMNO.dart';
+
 class XDPrincipal extends StatelessWidget {
   XDPrincipal() : super();
   @override
@@ -321,64 +322,80 @@ class XDPrincipal extends StatelessWidget {
             child:
                 // Adobe XD layer: 'Icon feather-menu' (group)
                 PageLink(
-                    links: [
-                      PageLinkInfo(
-                        transition: LinkTransition.Fade,
-                        ease: Curves.easeOut,
-                        duration: 0.3,
-                        pageBuilder: () => XDLateralALUMNO(),
-                      ),
-                    ],
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8.0),
-                        image: DecorationImage(
-                          image: const AssetImage(''),
-                          fit: BoxFit.cover,
-                        ),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(0x26000000),
-                            offset: Offset(0, 2),
-                            blurRadius: 4,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-                Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(start: 0.0, end: 0.0),
-                  Pin(size: 1.0, middle: 0.5294),
-                  child: SvgPicture.string(
-                    _svg_e2hmm7,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
-                ),
-                Pinned.fromPins(
-                  Pin(start: 0.0, end: 0.0),
-                  Pin(size: 1.0, start: 0.0),
-                  child: SvgPicture.string(
-                    _svg_bsgnkp,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
-                ),
-                Pinned.fromPins(
-                  Pin(start: 0.0, end: 0.0),
-                  Pin(size: 1.0, end: -1.0),
-                  child: SvgPicture.string(
-                    _svg_5ycv3v,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
+              links: [
+                PageLinkInfo(
+                  transition: LinkTransition.Fade,
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => XDLateralALUMNO(),
                 ),
               ],
+              // Adobe XD layer: 'Icon feather-menu' (group)
+
+              child: Stack(
+                children: <Widget>[
+                  Pinned.fromPins(
+                    Pin(start: 0.0, end: 0.0),
+                    Pin(size: 1.0, middle: 0.5294),
+                    child: SvgPicture.string(
+                      _svg_df1kn5,
+                      allowDrawingOutsideViewBox: true,
+                      fit: BoxFit.fill,
+                    ),
+                  ),
+                  Pinned.fromPins(
+                    Pin(start: 0.0, end: 0.0),
+                    Pin(size: 1.0, start: 0.0),
+                    child: SvgPicture.string(
+                      _svg_fp2jon,
+                      allowDrawingOutsideViewBox: true,
+                      fit: BoxFit.fill,
+                    ),
+                  ),
+                  Pinned.fromPins(
+                    Pin(start: 0.0, end: 0.0),
+                    Pin(size: 1.0, end: -1.0),
+                    child: SvgPicture.string(
+                      _svg_xfw2d7,
+                      allowDrawingOutsideViewBox: true,
+                      fit: BoxFit.fill,
+                    ),
+                  ),
+                ],
+              ),
             ),
-          
+          ),
+          Stack(
+            children: <Widget>[
+              Pinned.fromPins(
+                Pin(start: 0.0, end: 0.0),
+                Pin(size: 1.0, middle: 0.5294),
+                child: SvgPicture.string(
+                  _svg_e2hmm7,
+                  allowDrawingOutsideViewBox: true,
+                  fit: BoxFit.fill,
+                ),
+              ),
+              Pinned.fromPins(
+                Pin(start: 0.0, end: 0.0),
+                Pin(size: 1.0, start: 0.0),
+                child: SvgPicture.string(
+                  _svg_bsgnkp,
+                  allowDrawingOutsideViewBox: true,
+                  fit: BoxFit.fill,
+                ),
+              ),
+              Pinned.fromPins(
+                Pin(start: 0.0, end: 0.0),
+                Pin(size: 1.0, end: -1.0),
+                child: SvgPicture.string(
+                  _svg_5ycv3v,
+                  allowDrawingOutsideViewBox: true,
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ],
+          ),
           Pinned.fromPins(
             Pin(start: 19.0, end: 18.0),
             Pin(size: 655.0, end: 70.0),
@@ -746,4 +763,10 @@ const String _svg_e2hmm7 =
 const String _svg_bsgnkp =
     '<svg viewBox="4.5 9.0 27.0 1.0" ><path  d="M 4.5 9 L 31.5 9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>';
 const String _svg_5ycv3v =
+    '<svg viewBox="4.5 27.0 27.0 1.0" ><path  d="M 4.5 27 L 31.5 27" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>';
+const String _svg_df1kn5 =
+    '<svg viewBox="4.5 18.0 27.0 1.0" ><path  d="M 4.5 18 L 31.5 18" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>';
+const String _svg_fp2jon =
+    '<svg viewBox="4.5 9.0 27.0 1.0" ><path  d="M 4.5 9 L 31.5 9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>';
+const String _svg_xfw2d7 =
     '<svg viewBox="4.5 27.0 27.0 1.0" ><path  d="M 4.5 27 L 31.5 27" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>';

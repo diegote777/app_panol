@@ -60,7 +60,7 @@ class XDLateralALUMNO extends StatelessWidget {
                   BoxShadow(
                     color: const Color(0x1a000000),
                     offset: Offset(4, 0),
-                    blurRadius: 8,
+                    
                   ),
                 ],
               ),
@@ -96,7 +96,7 @@ class XDLateralALUMNO extends StatelessWidget {
                   BoxShadow(
                     color: const Color(0x33000000),
                     offset: Offset(0, 4),
-                    blurRadius: 8,
+                   
                   ),
                 ],
               ),
@@ -141,7 +141,7 @@ class XDLateralALUMNO extends StatelessWidget {
                           BoxShadow(
                             color: const Color(0x17000000),
                             offset: Offset(0, 2),
-                            blurRadius: 4,
+                           
                           ),
                         ],
                       ),
@@ -212,7 +212,7 @@ class XDLateralALUMNO extends StatelessWidget {
                           BoxShadow(
                             color: const Color(0x0d000000),
                             offset: Offset(0, 2),
-                            blurRadius: 4,
+                            
                           ),
                         ],
                       ),
@@ -288,7 +288,7 @@ class XDLateralALUMNO extends StatelessWidget {
                           BoxShadow(
                             color: const Color(0x0d000000),
                             offset: Offset(0, 2),
-                            blurRadius: 4,
+                            
                           ),
                         ],
                       ),
@@ -338,7 +338,7 @@ class XDLateralALUMNO extends StatelessWidget {
                         BoxShadow(
                           color: const Color(0x0d000000),
                           offset: Offset(0, 2),
-                          blurRadius: 4,
+                          
                         ),
                       ],
                     ),
@@ -385,7 +385,7 @@ class XDLateralALUMNO extends StatelessWidget {
                           BoxShadow(
                             color: const Color(0x0d000000),
                             offset: Offset(0, 2),
-                            blurRadius: 4,
+                            
                           ),
                         ],
                       ),
@@ -444,7 +444,7 @@ class XDLateralALUMNO extends StatelessWidget {
                           BoxShadow(
                             color: const Color(0x0d000000),
                             offset: Offset(0, 2),
-                            blurRadius: 4,
+                            
                           ),
                         ],
                       ),
